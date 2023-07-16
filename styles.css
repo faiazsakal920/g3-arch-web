@@ -1,0 +1,56 @@
+* {
+    margin: 0px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header section starts */
+
+
+header{
+    background: rgba(255, 143, 14, 0.247);
+    padding: 50px 240px;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-title {
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+nav>ul {
+    display: flex;
+}
+
+nav li{
+    list-style: none;
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+nav li a{
+    text-decoration: none;
+    color: #424242;
+}
+
+/* banner styles */
+
+.banner{
+    margin-top: 100px;
+}
+
+.banner-content{
+    max-width: 800px;
+    text-align: center;
+    margin: 0px auto;
+
+}
+
+
